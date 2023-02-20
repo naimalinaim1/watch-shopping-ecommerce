@@ -48,3 +48,18 @@
     background-size: 100% 100%;
     border-radius: 2px;
 }
+
+/* special product */
+.Xbox {
+    background: url('../images/banners/banner3.jpg');
+
+}
+.zeblaze-clock {
+    background: url('../images/banners/banner4.jpg');
+
+}
+
+.cover-bg {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
