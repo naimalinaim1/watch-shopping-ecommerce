@@ -10,10 +10,12 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- font awesome cdn link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/custom-css.css">
 </head>
 <body>
     <!-- header start -->
-    <header class="pt-4 pb-8">
+    <header class="pt-4">
         <!-- navbar -->
         <div class="navbar bg-base-100 px-4">
             <div class="navbar-start">
@@ -116,14 +118,28 @@
         <!-- banner -->
         <div class="carousel w-full mt-6">
           <div id="slide1" class="carousel-item relative w-full">
-            <img src="images/sliders/slider1.jpg" class="w-full h-[780px]"/>
+            <div class="slider1 slider-text w-full h-[780px] text-white">
+              <div>
+                <p class="font-semibold mb-2">DISCOVER NEW</p>
+                <h1 class="text-[55px] font-bold"> Aerobat Fore-Azis <br> Mini Drone</h1>
+                 <p class="my-5">The Brand Comes From The Google Home Collection 2023</p>
+                <button class="bg-white px-5 py-3 rounded text-black font-semibold">Shop Now</button>
+              </div>
+            </div>
             <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
               <a href="#slide2" class="btn btn-circle">❮</a> 
               <a href="#slide2" class="btn btn-circle">❯</a>
             </div>
           </div> 
           <div id="slide2" class="carousel-item relative w-full">
-            <img src="images/sliders/slider2.jpg" class="w-full h-[780px]"/>
+            <div class="slider2 slider-text w-full h-[780px] text-white">
+              <div>
+                <p class="font-semibold mb-2">DISCOVER NEW</p>
+                <h1 class="text-[55px] font-bold"> Aerobat Fore-Azis <br> Gaming Computer</h1>
+                 <p class="my-5">The Brand Comes From The Google Home Collection 2023</p>
+                <button class="bg-white px-5 py-3 rounded text-black font-semibold">Shop Now</button>
+              </div>
+            </div>
             <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
               <a href="#slide1" class="btn btn-circle">❮</a> 
               <a href="#slide1" class="btn btn-circle">❯</a>
@@ -131,5 +147,170 @@
           </div> 
         </div>
     </header>
+    <!-- main start -->
+    <main class="bg-[#f6f5f5]">
+      <!-- top products -->
+      <section class="z-[2] top-products mx-3 px-4 bg-white relative -top-[100px] rounded">
+        <h2 class="text-3xl font-bold pt-8 pb-10">TOP PRODUCTS</h2>
+        <!-- products -->
+        <div class="grid gap-4 grid-cols-1 sm:grid-cols-2  md:grid-cols-3  lg:grid-cols-4">
+          <!-- product 1 -->
+          <div class="card w-full bg-base-100 shadow-md border">
+            <figure class="px-3 pt-3">
+              <img src="images/products/product-1.jpg" alt="Product" class="rounded-xl" />
+            </figure>
+            <div class="card-body px-2 pt-6 pb-3">
+              <div class="text-yellow-500 flex text-sm">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <h2 class="font-semibold mt-2 text-xl">Corsair Headphones!</h2>
+              <p class="font-semibold text-sm text-red-600">$70.00</p>
+            </div>
+          </div>
+          <!-- product 2 -->
+          <div class="card w-full bg-base-100 shadow-md border">
+            <figure class="px-3 pt-3">
+              <img src="images/products/product-2.jpg" alt="Product" class="rounded-xl" />
+            </figure>
+            <div class="card-body px-2 pt-6 pb-3">
+              <div class="text-yellow-500 flex text-sm">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <h2 class="font-semibold mt-2 text-xl">Corsair Headphones!</h2>
+              <p class="font-semibold text-sm text-red-600">$70.00</p>
+            </div>
+          </div>
+          <!-- product 3 -->
+          <div class="card w-full bg-base-100 shadow-md border">
+            <figure class="px-3 pt-3">
+              <img src="images/products/product-3.jpg" alt="Product" class="rounded-xl" />
+            </figure>
+            <div class="card-body px-2 pt-6 pb-3">
+              <div class="text-yellow-500 flex text-sm">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <h2 class="font-semibold mt-2 text-xl">Corsair Headphones!</h2>
+              <p class="font-semibold text-sm text-red-600">$70.00</p>
+            </div>
+          </div>
+          <!-- product 4 -->
+          <div class="card w-full bg-base-100 shadow-md border">
+            <figure class="px-3 pt-3">
+              <img src="images/products/product-4.jpg" alt="Product" class="rounded-xl" />
+            </figure>
+            <div class="card-body px-2 pt-6 pb-3">
+              <div class="text-yellow-500 flex text-sm">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <h2 class="font-semibold mt-2 text-xl">Corsair Headphones!</h2>
+              <p class="font-semibold text-sm text-red-600">$70.00</p>
+            </div>
+          </div>
+          <!-- product 5 -->
+          <div class="card w-full bg-base-100 shadow-md border">
+            <figure class="px-3 pt-3">
+              <img src="images/products/product-14.jpg" alt="Product" class="rounded-xl" />
+            </figure>
+            <div class="card-body px-2 pt-6 pb-3">
+              <div class="text-yellow-500 flex text-sm">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <h2 class="font-semibold mt-2 text-xl">Corsair Headphones!</h2>
+              <p class="font-semibold text-sm text-red-600">$70.00</p>
+            </div>
+          </div>
+          <!-- product 6 -->
+          <div class="card w-full bg-base-100 shadow-md border">
+            <figure class="px-3 pt-3">
+              <img src="images/products/product-16.jpg" alt="Product" class="rounded-xl" />
+            </figure>
+            <div class="card-body px-2 pt-6 pb-3">
+              <div class="text-yellow-500 flex text-sm">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <h2 class="font-semibold mt-2 text-xl">Corsair Headphones!</h2>
+              <p class="font-semibold text-sm text-red-600">$70.00</p>
+            </div>
+          </div>
+          <!-- product 7 -->
+          <div class="card w-full bg-base-100 shadow-md border">
+            <figure class="px-3 pt-3">
+              <img src="images/products/product-7.jpg" alt="Product" class="rounded-xl" />
+            </figure>
+            <div class="card-body px-2 pt-6 pb-3">
+              <div class="text-yellow-500 flex text-sm">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <h2 class="font-semibold mt-2 text-xl">Corsair Headphones!</h2>
+              <p class="font-semibold text-sm text-red-600">$70.00</p>
+            </div>
+          </div>
+          <!-- product 8 -->
+          <div class="card w-full bg-base-100 shadow-md border">
+            <figure class="px-3 pt-3">
+              <img src="images/products/product-8.jpg" alt="Product" class="rounded-xl" />
+            </figure>
+            <div class="card-body px-2 pt-6 pb-3">
+              <div class="text-yellow-500 flex text-sm">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <h2 class="font-semibold mt-2 text-xl">Corsair Headphones!</h2>
+              <p class="font-semibold text-sm text-red-600">$70.00</p>
+            </div>
+          </div>
+        </div>
+        <div class="text-center py-10">
+          <button class="bg-black px-5 py-3 rounded text-white font-semibold">Shop Now</button>
+        </div>
+        <div class="z-[2] pb-16 bg-white rounded grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div class="px-6 pt-10 virtual-glasses h-[380px] rounded text-white">
+            <p class="uppercase text-lg mb-3">Limited Edition</p>
+            <h2 class="text-5xl sm:w-[60%] md:w-[100%] lg:w-[70%] font-bold mb-5">Virtual Reality Glasses</h2>
+            <button class="bg-white px-5 py-3 rounded text-black font-semibold">Shop Now</button>
+          </div>
+          <div class="px-6 pt-10 mute-headphone h-[380px] rounded text-white">
+            <p class="uppercase text-lg mb-3">Collection ss22</p>
+            <h2 class="text-5xl sm:w-[60%] md:w-[100%] lg:w-[70%] font-bold mb-5">Put The World On Mute</h2>
+            <button class="bg-white px-5 py-3 rounded text-black font-semibold">Shop Now</button>
+          </div>
+        </div>
+      </section>
+      <!-- categories section  -->
+      <section class="categories h-[700px] py-48 relative -top-[180px] z-[1]">
+
+      </section>
+    </main>
 </body>
 </html>

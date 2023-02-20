@@ -1,0 +1,33 @@
+.slider1 {
+    background-image: url('../images/sliders/slider1.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.slider2 {
+    background-image: url('../images/sliders/slider2.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.slider-text {
+    display: flex;
+    align-items: center;
+}
+.slider-text > div {
+    padding-left: 7%;
+}
+
+.virtual-glasses {
+    background: url('../images/banners/banner1.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.mute-headphone {
+    background: url('../images/banners/banner2.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+/* categories */
+.categories {
+    background: url('../images/category/bg-cats.jpg');
+    background-size: 100% 100%;
+}
