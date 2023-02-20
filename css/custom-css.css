@@ -31,3 +31,20 @@
     background: url('../images/category/bg-cats.jpg');
     background-size: 100% 100%;
 }
+
+.cate-1 {
+    background: url('../images/category/cate1.jpg');
+}
+.cate-2 {
+    background: url('../images/category/cate2.jpg');
+}
+.cate-3 {
+    background: url('../images/category/cate3.jpg');
+}
+.cate-4 {
+    background: url('../images/category/cate4.jpg');
+}
+.cate {
+    background-size: 100% 100%;
+    border-radius: 2px;
+}
