@@ -70,3 +70,8 @@
     background-size: cover;
     background-position: center;
 }
+
+/* brands images  */
+.brands img {
+    filter: grayscale(100);
+}
