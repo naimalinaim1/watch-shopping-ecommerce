@@ -63,3 +63,10 @@
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
+
+/* testimonial  */
+.testimonial {
+    background: url('../images/tesstimonials/bg-testimonials.jpg');
+    background-size: cover;
+    background-position: center;
+}
