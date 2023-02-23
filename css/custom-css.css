@@ -75,3 +75,28 @@
 .brands img {
     filter: grayscale(100);
 }
+
+
+/*  add to card button */
+.card:hover .add-to-cart {
+    width: 100%;
+    height: 100%;
+    background: rgba(251, 169, 136, 0.269);
+    text-align: center;
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    top: 0;
+    border-radius: 13px;
+}
+
+.add-to-cart h3 {
+    width: 100%;
+    padding: 13px 0;
+    font-size: 18px;
+    border-radius: 5px;
+    font-weight: 600;
+    background: lightsalmon;
+    position: absolute;
+    top: 45%;
+}

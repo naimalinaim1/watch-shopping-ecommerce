@@ -106,13 +106,13 @@
               </p>
               <p class="text-xl mr-4">
                 <i class="fa-regular fa-heart"></i>
-                <span class="-ml-1 text-red-500"><sup>0</sup></span>
+                <span class="-ml-1 text-red-500"><sup id="favourite-products-quantity">0</sup></span>
               </p>
               <p class="text-xl mr-4">
                 <i class="fa-solid fa-cart-shopping"></i>
-                <span class="-ml-1 text-red-500"><sup>0</sup></span>
+                <span class="-ml-1 text-red-500"><sup id="total-products-quantity">0</sup></span>
               </p>
-              <p class="text-lg">$<span>0.00</span></p>
+              <p class="text-lg">$<span id="total-products-price">0.00</span></p>
             </div>
         </div>
         <!-- banner -->
@@ -153,9 +153,9 @@
       <section class="z-[2] top-products mx-3 px-4 bg-white relative -top-[100px] rounded">
         <h2 class="text-3xl font-bold pt-8 pb-10 uppercase">TOP PRODUCTS</h2>
         <!-- products -->
-        <div class="grid gap-4 grid-cols-1 sm:grid-cols-2  md:grid-cols-3  lg:grid-cols-4">
+        <div id="top-products" class="grid gap-4 grid-cols-1 sm:grid-cols-2  md:grid-cols-3  lg:grid-cols-4">
           <!-- product 1 -->
-          <div class="card w-full bg-base-100 shadow-md border">
+          <div  class="card w-full bg-base-100 shadow-md border">
             <figure class="px-3 pt-3">
               <img src="images/products/product-1.jpg" alt="Product" class="rounded-xl" />
             </figure>
@@ -168,7 +168,11 @@
                 <i class="fa-solid fa-star"></i>
               </div>
               <h2 class="font-semibold mt-2 text-xl">Corsair Headphones!</h2>
-              <p class="font-semibold text-sm text-red-600">$70.00</p>
+              <p class="font-semibold text-sm text-red-600">$<span id="top-product-price-1">70.00</span></p>
+            </div>
+            <!-- add product button  -->
+            <div class="add-to-cart hidden" id="top-product-1">
+              <h3>Add To Cart</h3>
             </div>
           </div>
           <!-- product 2 -->
@@ -185,7 +189,11 @@
                 <i class="fa-solid fa-star"></i>
               </div>
               <h2 class="font-semibold mt-2 text-xl">Corsair Headphones!</h2>
-              <p class="font-semibold text-sm text-red-600">$70.00</p>
+              <p class="font-semibold text-sm text-red-600">$<span id="top-product-price-2">70.00</span></p>
+            </div>
+            <!-- add product button  -->
+            <div class="add-to-cart hidden" id="top-product-2">
+              <h3>Add To Cart</h3>
             </div>
           </div>
           <!-- product 3 -->
@@ -202,7 +210,11 @@
                 <i class="fa-solid fa-star"></i>
               </div>
               <h2 class="font-semibold mt-2 text-xl">Corsair Headphones!</h2>
-              <p class="font-semibold text-sm text-red-600">$70.00</p>
+              <p class="font-semibold text-sm text-red-600">$<span id="top-product-price-3">70.00</span></p>
+            </div>
+            <!-- add product button  -->
+            <div class="add-to-cart hidden" id="top-product-3">
+              <h3>Add To Cart</h3>
             </div>
           </div>
           <!-- product 4 -->
@@ -219,7 +231,11 @@
                 <i class="fa-solid fa-star"></i>
               </div>
               <h2 class="font-semibold mt-2 text-xl">Corsair Headphones!</h2>
-              <p class="font-semibold text-sm text-red-600">$70.00</p>
+              <p class="font-semibold text-sm text-red-600">$<span id="top-product-price-4">70.00</span></p>
+            </div>
+            <!-- add product button  -->
+            <div class="add-to-cart hidden" id="top-product-4">
+              <h3>Add To Cart</h3>
             </div>
           </div>
           <!-- product 5 -->
@@ -236,7 +252,11 @@
                 <i class="fa-solid fa-star"></i>
               </div>
               <h2 class="font-semibold mt-2 text-xl">Corsair Headphones!</h2>
-              <p class="font-semibold text-sm text-red-600">$70.00</p>
+              <p class="font-semibold text-sm text-red-600">$<span id="top-product-price-5">70.00</span></p>
+            </div>
+            <!-- add product button  -->
+            <div class="add-to-cart hidden" id="top-product-5">
+              <h3>Add To Cart</h3>
             </div>
           </div>
           <!-- product 6 -->
@@ -253,7 +273,11 @@
                 <i class="fa-solid fa-star"></i>
               </div>
               <h2 class="font-semibold mt-2 text-xl">Corsair Headphones!</h2>
-              <p class="font-semibold text-sm text-red-600">$70.00</p>
+              <p class="font-semibold text-sm text-red-600">$<span id="top-product-price-6">70.00</span></p>
+            </div>
+            <!-- add product button  -->
+            <div class="add-to-cart hidden" id="top-product-6">
+              <h3>Add To Cart</h3>
             </div>
           </div>
           <!-- product 7 -->
@@ -270,7 +294,11 @@
                 <i class="fa-solid fa-star"></i>
               </div>
               <h2 class="font-semibold mt-2 text-xl">Corsair Headphones!</h2>
-              <p class="font-semibold text-sm text-red-600">$70.00</p>
+              <p class="font-semibold text-sm text-red-600">$<span id="top-product-price-7">70.00</span></p>
+            </div>
+            <!-- add product button  -->
+            <div class="add-to-cart hidden" id="top-product-7">
+              <h3>Add To Cart</h3>
             </div>
           </div>
           <!-- product 8 -->
@@ -287,7 +315,11 @@
                 <i class="fa-solid fa-star"></i>
               </div>
               <h2 class="font-semibold mt-2 text-xl">Corsair Headphones!</h2>
-              <p class="font-semibold text-sm text-red-600">$70.00</p>
+              <p class="font-semibold text-sm text-red-600">$<span id="top-product-price-8">70.00</span></p>
+            </div>
+            <!-- add product button  -->
+            <div class="add-to-cart hidden" id="top-product-8">
+              <h3>Add To Cart</h3>
             </div>
           </div>
         </div>
@@ -629,5 +661,9 @@
         <p>&copy;copyright digital - 2023</p>
       </div>
     </footer>
+
+    <!-- script file -->
+    <script defer src="js/utilities.js"></script>
+    <script defer src="js/top-products.js"></script>
 </body>
 </html>
