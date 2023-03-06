@@ -30,5 +30,4 @@ const addToCart = (priceId) => {
   // set total cost
   totalPriceEL.innerText = cost;
   productsQuantityEl.innerText = productsQuantity + 1;
-  console.log(price, cost);
 };
